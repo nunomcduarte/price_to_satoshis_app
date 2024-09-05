@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price to Satoshis Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Price to Satoshis Converter</h1>
+    
+    <!-- Form to convert price to satoshis -->
+    <form method="POST" action="/convert">
+        <label for="price">Enter Price (EUR):</label>
+        <input type="number" step="0.01" id="price" name="price" required>
+        
+        <button type="submit">Convert to Satoshis</button>
+    </form>
+</body>
+</html>
